@@ -1,0 +1,130 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+html {
+  background-color: #f3f3f3;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Tahoma, sans-serif;
+  font-size: 11pt;
+  background: #ffffff;
+  color: #000000;
+}
+body {
+    background-image: url("https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/082015/seneca_0.png?itok=nErXmj1-") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+nav {
+  height: 40px;
+  background: #343434;
+  border: #000 solid 1px;
+}
+
+nav ul {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0 0 0 -12px;
+  padding: 0px;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  padding: 10px 12px 13px 12px;
+
+  display: block;
+  line-height: 40px;
+  font: 95% Tahoma, sans-serif;
+  color: #ddd;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+header {
+  padding-top: 1px;
+  margin-bottom: 15px;
+}
+
+footer {
+  height: 30px;
+  width: 100%;
+  background: #343434;
+  border: #000 solid 1px;
+  color: #eee;
+  text-align: left;
+  font-size: 95%;
+  padding-top: 13px;
+  vertical-align: middle;
+}
+
+.main {
+  min-height: 460px;
+  width:600px;
+  margin: auto;
+}
+
+.center {
+  max-width: 960px;
+  margin:auto;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+table {
+  border: 1px solid;
+}
+div.image {
+  background-color: chartreuse;
+  height: 20px;
+  width: 500px;
+}
+table, th, td {
+  border: 1px solid darkorange;
+}
+caption {
+  color: deepskyblue;
+}
+figcaption.color {
+  color: blue;
+  color-rendering: optimizeQuality;
+  line-height: 30px;
+  background-color: hotpink;
+  width: 197px;
+}
+.declaration {
+    background-color: aquamarine;
+
+}
+.line p{
+    border-top: 2px dashed red;
+    width: 200px;
+}
+li:hover{
+  background-color: blue;
+}
+.color1 {
+  background-color: lightskyblue;
+}
+.trans {
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.94;
+}
+
+div.bold p  {
+
+  font-weight: bold;
+  color: #000000;
+}
