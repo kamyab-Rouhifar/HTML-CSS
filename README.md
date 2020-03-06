@@ -1,2 +1,2 @@
 # HTML-CSS
-Here is the example of Html with Javascript innerhtml with CSS style
+Here is the example of HTML with Javascript innerhtml with CSS style
